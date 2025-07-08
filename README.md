@@ -10,6 +10,7 @@ Let me ask you something — have you ever written CSS and thought:
 
 If you nodded “yes” — you’re not alone.  
 In fact, I’ve been exactly where you are. That’s why I created this repo.
+> I’m learning new things every day — It’s not just a static collection — it’s a growing learning log.
 
 ---
 
@@ -21,7 +22,7 @@ At some point, I realized: the problem wasn’t CSS... the problem was **not hav
 
 So I decided to do something about it.
 
-This repo is my personal journey of learning CSS the right way — **from the ground up**. Every note, every example, every explanation here is something I’ve explored, understood (or struggled with!), and documented for my **own future reference**.
+This repo is my personal journey of learning CSS the right way — **from the ground up**. Every note, every example, every explanation here is something I’ve explored, understood (or struggled with!), and documented with chatGPT for my **own future reference**.
 
 And I thought — why not share it with you too?
 
@@ -51,21 +52,14 @@ And I thought — why not share it with you too?
 
 ---
 
-## 🔄 Updated Daily
-
-I’m learning new things every day — and I update this repo regularly with new concept.  
-It’s not just a static collection — it’s a growing learning log.
-
----
-
 ## Repository Contents
 
-| File Name | Description | ⏰ Reading Time |
-|-----------|-------------|-----------------|
-| [`01-boxmodel.md`](https://github.com/hiimvikash/css/blob/main/01-boxmodel.md) | CSS Box Model fundamentals - content, padding, border, margin areas and their behavior | 8 minutes |
-| [`02-widthOfBlockElement.md`](https://github.com/hiimvikash/css/blob/main/02-widthOfBlockElement.md) | Understanding block element width behavior, auto vs 100%, and box-sizing property | 12 minutes |
-| [`03-avoidFixedHeight.md`](https://github.com/hiimvikash/css/blob/main/03-avoidFixedHeight.md) | Best practices for avoiding fixed heights, using min-height, padding, and flexbox instead | 6 minutes |
-| [`04-inheritance.md`](https://github.com/hiimvikash/css/blob/main/04-inheritance.md) | CSS inheritance principles - which properties inherit, form elements, and practical examples | 10 minutes |
+| File Name | Description |
+|-----------|-------------|
+| [`01-boxmodel.md`](https://github.com/hiimvikash/css/blob/main/01-boxmodel.md) | CSS Box Model fundamentals - content, padding, border, margin areas and their behavior |
+| [`02-widthOfBlockElement.md`](https://github.com/hiimvikash/css/blob/main/02-widthOfBlockElement.md) | Understanding block element width behavior, auto vs 100%, and box-sizing property |
+| [`03-avoidFixedHeight.md`](https://github.com/hiimvikash/css/blob/main/03-avoidFixedHeight.md) | Best practices for avoiding fixed heights, using min-height, padding, and flexbox instead |
+| [`04-inheritance.md`](https://github.com/hiimvikash/css/blob/main/04-inheritance.md) | CSS inheritance principles - which properties inherit, form elements, and practical examples |
 
 
 
