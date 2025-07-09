@@ -15,7 +15,7 @@ In fact, **I’m currently in the same state too** — trying to truly understan
 
 That’s why I created this repo — a place where I’m documenting every concept I explore and understand along the way.
 
-> I’m learning new things every day — it’s not just a static collection — it’s a growing learning log.
+> **I’m learning new things every day — it’s not just a static collection — it’s a growing learning log.**
 
 ---
 
@@ -27,7 +27,7 @@ At some point, I realized: the problem wasn’t CSS... the problem was **not hav
 
 So I decided to do something about it.
 
-This repo is my personal journey of learning CSS the right way — **from the ground up**. Every note, every example, every explanation here is something I’ve explored, understood (or struggled with!), and documented with chatGPT for my **own future reference**.
+This repo is my personal journey of learning CSS the right way — **from the ground up**. Every note, every example, every explanation here is something I’ve explored, understood (or struggled with!), and documenting with chatGPT for my **own future reference**.
 
 And I thought — why not share it with you too?
 
