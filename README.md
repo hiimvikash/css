@@ -6,11 +6,16 @@ Let me ask you something — have you ever written CSS and thought:
 
 > _"Why isn’t this working?"_  
 > _"Why is this element behaving like this?"_  
-> _"Why does adding one line break everything else?"_
+> _"Why does adding one line, break everything else?"_  
+> _"Why is this div overflowing?"_  
+> _"Where did this horizontal scrollbar even come from?"_
 
 If you nodded “yes” — you’re not alone.  
-In fact, I’ve been exactly where you are. That’s why I created this repo.
-> I’m learning new things every day — It’s not just a static collection — it’s a growing learning log.
+In fact, **I’m currently in the same state too** — trying to truly understand CSS rather than just make things “look okay.”
+
+That’s why I created this repo — a place where I’m documenting every concept I explore and understand along the way.
+
+> I’m learning new things every day — it’s not just a static collection — it’s a growing learning log.
 
 ---
 
