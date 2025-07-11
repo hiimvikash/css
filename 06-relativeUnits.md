@@ -1,4 +1,4 @@
-## 🛠 Step-by-step guide: Understanding `em` vs `rem` in CSS
+## 🛠 Relative Units: Understanding `em` vs `rem` in CSS
 
 > Let’s learn by **doing**, not just reading theory!
 
@@ -37,9 +37,11 @@ They help designs scale better.
 Imagine this HTML:
 
 ```html
-<div class="column-em">
-  <h1>Heading</h1>
-  <p>Paragraph text</p>
+<div class="grid">
+  <div class="column-em">
+    <h1>Heading</h1>
+    <p>Paragraph text</p>
+  </div>
 </div>
 ```
 
@@ -50,13 +52,14 @@ In CSS:
 .column-em p { font-size: 1em; }
 ```
 
-> `1em` usually = 16px (browser default).
+> `1em` usually = 16px (browser default for root element).
 
 So:
 
 * `p` ≈ 16px
 * `h1` ≈ 40px (16 × 2.5)
 
+> This means `h1` is `2.5` times bigger than `p`. 
 ---
 
 ### ⚙ Step 4: What if parent has a font size?
@@ -72,7 +75,7 @@ Then:
 * `p` = 10px (1 × 10)
 * `h1` = 25px (2.5 × 10)
 
-> `em` **always looks at the parent’s font size**.
+> `em` **always looks at the parent’s font size** and **if not found** then it move up the hierarchy to look for the `font-size`.
 
 ---
 
@@ -89,8 +92,8 @@ Example:
 
 Now:
 
-* `.grid` makes its children 32px (16 × 2)
-* `.column-em` makes its children 32px × 2 = 64px!
+* `.grid` makes its children 32px (16 × 2) as a **base `font-size`**.
+* `.column-em` makes its children 32px × 2 = 64px as a **base `font-size`**!
 
 And so on. This is why `em` can **compound** and become huge if you’re not careful.
 
@@ -120,7 +123,7 @@ Even if `.column-rem` or `.grid` have other font sizes, `rem` ignores them.
 
 ---
 
-### ✏ Step 7: Using `em` and `rem` for padding & margin
+### ✏ Step 7: Using `em` and `rem` for padding, margin and other stuff.
 
 * `em` → looks at **current element’s font size**
 * `rem` → looks at **root font size**
@@ -130,19 +133,19 @@ Example:
 ```css
 h1 {
   font-size: 2.5em;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
 }
 ```
 
-Here, margin-bottom = 2.5 × parent’s font size.
+Here, margin-bottom = 1.2 × 2.5 (evaluated current_element_font_size)
 
 With `rem`:
 
 ```css
-margin-bottom: 1rem;
+margin-bottom: 2rem;
 ```
 
-Always 16px, consistent everywhere.
+> It will look for the font-size of the `root element`..i.e., `2 X 16`
 
 ---
 
@@ -163,6 +166,9 @@ Why `em` for padding?
 * If you set font size to `3em` (big button), padding grows.
 
 > Keeps proportions.
+
+<img width="2360" height="1882" alt="image" src="https://github.com/user-attachments/assets/6db6cd62-c7c2-4024-bcb1-cf080a5be223" />
+
 
 ---
 
@@ -186,7 +192,7 @@ Then spacing stays the same, no matter button size.
 
 Pixels never scale.
 
-With `em`/`rem`, you can do:
+With `em`/`rem` used inside elements, you can do:
 
 ```css
 @media (min-width: 700px) {
