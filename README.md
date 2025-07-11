@@ -65,6 +65,8 @@ And I thought — why not share it with you too?
 | [`02-widthOfBlockElement.md`](https://github.com/hiimvikash/css/blob/main/02-widthOfBlockElement.md) | Understanding block element width behavior, auto vs 100%, and box-sizing property |
 | [`03-avoidFixedHeight.md`](https://github.com/hiimvikash/css/blob/main/03-avoidFixedHeight.md) | Best practices for avoiding fixed heights, using min-height, padding, and flexbox instead |
 | [`04-inheritance.md`](https://github.com/hiimvikash/css/blob/main/04-inheritance.md) | CSS inheritance principles - which properties inherit, form elements, and practical examples |
+| [`05-thinkInheritance.md`](https://github.com/hiimvikash/css/blob/main/05-thinkInheritence.md) | Think and plan to apply inheritance while writing CSS |
+| [`06-relativeUnits.md`](https://github.com/hiimvikash/css/blob/main/06-relativeUnits.md) | How to use `em` and `rem` |
 
 
 
