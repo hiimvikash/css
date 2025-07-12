@@ -104,6 +104,7 @@ In practice, you’d learn:
 - **Origin & importance**: e.g., rules with `!important` win over normal rules.
 - **Specificity**: IDs are more specific than classes; classes are more specific than tags.
 - Sometimes, we “flatten” specificity to keep CSS maintainable.
+- <img width="759" height="672" alt="image" src="https://github.com/user-attachments/assets/d7392e2b-d203-4ef7-b400-1cac6ddc1993" />
 - Sometimes, we intentionally increase specificity, but it can cause problems later.
 
 ---
