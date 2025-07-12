@@ -104,9 +104,56 @@ In practice, you’d learn:
 - **Origin & importance**: e.g., rules with `!important` win over normal rules.
 - **Specificity**: IDs are more specific than classes; classes are more specific than tags.
 - Sometimes, we “flatten” specificity to keep CSS maintainable.
-- <img width="759" height="672" alt="image" src="https://github.com/user-attachments/assets/d7392e2b-d203-4ef7-b400-1cac6ddc1993" />
-- Sometimes, we intentionally increase specificity, but it can cause problems later.
+  ## ✏️ What does “flatten specificity” mean?
 
+    **Flattening specificity** means:  
+    - Keeping selectors at roughly the same (lower) level of specificity
+    - Avoiding overly specific selectors like `#header .menu ul li a`
+    - Not mixing IDs and classes in ways that jump specificity scores
+    
+    ---
+    
+    ## 🧪 Why do we do this?
+    
+    When selectors have similar, flat specificity:
+    - Easier to override styles later
+    - Rarely need to use `!important`
+    - CSS becomes more predictable and maintainable
+    
+    If specificity varies wildly:
+    - Hard to override deeply nested selectors
+    - May need to keep adding specificity or `!important`
+    - Leads to “specificity wars” and messy CSS
+    
+    ---
+    
+    ## ✅ Example: flat vs deeply nested
+    
+    **Flat specificity:**
+    
+    ```css
+    .button { color: blue; }
+    .button:hover { color: darkblue; }
+    ```
+    
+    **High specificity / deeply nested:**
+    
+    ```css
+    #header nav ul li .button:hover { color: darkblue; }
+    ```
+    
+    If you later want to override `.button:hover`, you'd need an even more specific selector or `!important`.
+    
+    ---
+    
+    ## 📌 How to keep specificity flat
+    
+    - Prefer single classes or combinations of classes
+    - Avoid heavy DOM-based nesting like `.sidebar ul li a`
+    - Avoid IDs in CSS unless necessary
+    - Use BEM or utility classes (`.card__title`, `.button--large`)
+
+---
 ---
 
 
