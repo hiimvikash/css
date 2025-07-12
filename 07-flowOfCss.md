@@ -166,3 +166,15 @@ That’s the core of the **CSS cascade**:
   - Specificity matters
 
 ---
+
+## ⚠️ Why hardcoded font sizes can be harmful
+Setting:
+```css
+html {
+  font-size: 21px;
+}
+```
+- Can override user’s chosen larger font sizes for accessibility(from browser settings) and forces fixed font-size.
+- Makes the site harder to read.
+
+Better: use relative units like `em` or `rem`.
