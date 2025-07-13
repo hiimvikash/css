@@ -70,8 +70,7 @@ And I thought — why not share it with you too?
 | [`07-CSScascade.md`](https://github.com/hiimvikash/css/blob/main/07-CSScascade.md) | Understanding CSS Cascade rules |
 | [`08-inline-formating-context.md`](https://github.com/hiimvikash/css/blob/main/08-inline-formating-context.md) | Inline formatting context, baseline, and inline element behavior |
 | [`09-BFC.md`](https://github.com/hiimvikash/css/blob/main/09-BFC.md) | Block Formatting Context (BFC) - what it is, when it's created, and practical applications |
-| [`README.md`](https://github.com/hiimvikash/css/blob/main/README.md) | Repository overview and file descriptions |
-
+| [`10-bringConsistency.md`](https://github.com/hiimvikash/css/blob/main/10-bringConsistency.md) | Here we will talk about the final way to adapt to bring cositency across your formating context |
 
 
 
