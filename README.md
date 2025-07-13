@@ -65,8 +65,16 @@ And I thought — why not share it with you too?
 | [`02-widthOfBlockElement.md`](https://github.com/hiimvikash/css/blob/main/02-widthOfBlockElement.md) | Understanding block element width behavior, auto vs 100%, and box-sizing property |
 | [`03-avoidFixedHeight.md`](https://github.com/hiimvikash/css/blob/main/03-avoidFixedHeight.md) | Best practices for avoiding fixed heights, using min-height, padding, and flexbox instead |
 | [`04-inheritance.md`](https://github.com/hiimvikash/css/blob/main/04-inheritance.md) | CSS inheritance principles - which properties inherit, form elements, and practical examples |
-| [`05-thinkInheritance.md`](https://github.com/hiimvikash/css/blob/main/05-thinkInheritence.md) | Think and plan to apply inheritance while writing CSS |
-| [`06-relativeUnits.md`](https://github.com/hiimvikash/css/blob/main/06-relativeUnits.md) | How to use `em` and `rem` |
+| [`05-thinkInheritance.md`](https://github.com/hiimvikash/css/blob/main/05-thinkInheritance.md) | Think and plan to apply inheritance while writing CSS |
+| [`06-relativeUnits.md`](https://github.com/hiimvikash/css/blob/main/06-relativeUnits.md) | How to use `em` and `rem` units effectively in responsive design |
+| [`07-flowOfCss.md`](https://github.com/hiimvikash/css/blob/main/07-flowOfCss.md) | Understanding CSS normal flow, document flow, and layout behavior |
+| [`08-inline-formating-context.md`](https://github.com/hiimvikash/css/blob/main/08-inline-formating-context.md) | Inline formatting context, baseline, and inline element behavior |
+| [`09-BFC.md`](https://github.com/hiimvikash/css/blob/main/09-BFC.md) | Block Formatting Context (BFC) - what it is, when it's created, and practical applications |
+| [`README.md`](https://github.com/hiimvikash/css/blob/main/README.md) | Repository overview and file descriptions |
+
+
+
+
 
 
 
