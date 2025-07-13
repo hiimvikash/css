@@ -56,6 +56,16 @@
 - Happens when:
   - Parent has no padding, border, or content above.
   - Vertical margins are touching.
+### Can try this !
+<img width="548" height="364" alt="image" src="https://github.com/user-attachments/assets/d04bcf2d-20d8-4a29-8984-2b70177cf12c" />
+
+- The output on screen : -
+<img width="213" height="237" alt="image" src="https://github.com/user-attachments/assets/bdeee278-ba39-42f8-b001-b2d28c3f18bb" />
+
+- `h1` is having margin coz of `user-agent style`(browser default).
+- Now that's make sense but why is this parent box shifted downwards ?
+- coz vertical margin of `h1` and parent `div` are touching so margin applied to child is making parent to push downward.
+
 
 ---
 
