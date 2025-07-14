@@ -50,6 +50,8 @@ And I thought — why not share it with you too?
 - You want to finally _understand_ **why** things work the way they do  
 - You’re tired of tutorials that assume you already know everything  
 - You want to **build a strong foundation** and stop being scared of CSS
+> You’re not a complete beginner — but also not looking for “Advanced CSS” tricks.  
+  This repo is about fundamentals: writing simple CSS with confidence, not guessing.
 
 ---
 
